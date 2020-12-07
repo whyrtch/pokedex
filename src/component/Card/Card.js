@@ -6,7 +6,7 @@ const Cards = (props) => {
             {
                 props.logo ?
                     <div className="card-header flex-center w-100">
-                        <img className="p-3 custome-height-10" src={props.logo} alt={props.title}/>
+                        <img className="mx-auto d-block" style={{height: "10rem !important"}} src={props.logo} alt={props.title}/>
                     </div>
                     : null
             }
